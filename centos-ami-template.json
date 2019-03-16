@@ -44,10 +44,12 @@
         "sudo yum install tomcat -y",
         "sudo yum install tomcat-webapps tomcat-admin-webapps -y",
         "sudo yum install tomcat-docs-webapp tomcat-javadoc -y",
+        "pwd",
         "cd /home/centos",
         "wget https://aws-codedeploy-us-east-1.s3.amazonaws.com/latest/install",
         "chmod +x ./install",
-        "sudo ./install auto"
+        "sudo ./install auto",
+        "sudo service codedeploy-agent status"
       ]
     }
   ]
