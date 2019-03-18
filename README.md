@@ -18,7 +18,7 @@ packer validate ubuntu-ami.json
 ## Build AMI
 
 ```
-packer build \
+packer build\
     -var 'aws_access_key=REDACTED' \
     -var 'aws_secret_key=REDACTED' \
     -var 'aws_region=us-east-1' \
