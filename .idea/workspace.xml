@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f25c7520-e709-4d5c-ad41-d5dfcf45a1b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f25c7520-e709-4d5c-ad41-d5dfcf45a1b8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +17,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/centos-ami-template.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="898">
+            <state relative-caret-position="1224">
               <caret line="51" column="46" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
             </state>
           </provider>
@@ -67,7 +65,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -84,6 +81,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -119,16 +117,18 @@
       <updated>1552764788796</updated>
       <workItem from="1552764790360" duration="777000" />
       <workItem from="1552769814132" duration="1091000" />
+      <workItem from="1552936509690" duration="602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1868000" />
+    <option name="totallyTimeSpent" value="2470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1175" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25376463" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2576687" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -165,7 +165,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/centos-ami-template.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="898">
+        <state relative-caret-position="1224">
           <caret line="51" column="46" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
         </state>
       </provider>
