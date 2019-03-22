@@ -39,6 +39,7 @@
         "sudo yum clean all",
         "sudo yum update -y",
         "sudo yum install ruby -y",
+        "sudo yum install lsof -y",
         "sudo yum install wget -y",
         "sudo yum install java-1.8.0-openjdk* -y",
         "sudo yum install tomcat -y",
@@ -49,7 +50,9 @@
         "wget https://aws-codedeploy-us-east-1.s3.amazonaws.com/latest/install",
         "chmod +x ./install",
         "sudo ./install auto",
-        "sudo service codedeploy-agent status"
+        "sudo service codedeploy-agent status",
+        "wget https//s3.amazonaws.com/amazoncloudwatch-agent/centos/amd64/latest/amazon-cloudwatch-agent.rpm",
+        "sudo rpm -U ./amazon-cloudwatch-agent.rpm"
       ]
     }
   ]
