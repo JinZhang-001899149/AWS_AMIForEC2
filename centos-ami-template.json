@@ -51,7 +51,7 @@
         "chmod +x ./install",
         "sudo ./install auto",
         "sudo service codedeploy-agent status",
-        "wget https//s3.amazonaws.com/amazoncloudwatch-agent/centos/amd64/latest/amazon-cloudwatch-agent.rpm",
+        "wget https://s3.amazonaws.com/amazoncloudwatch-agent/centos/amd64/latest/amazon-cloudwatch-agent.rpm",
         "sudo rpm -U ./amazon-cloudwatch-agent.rpm"
       ]
     }
