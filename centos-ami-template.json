@@ -47,12 +47,12 @@
         "sudo yum install tomcat-docs-webapp tomcat-javadoc -y",
         "pwd",
         "cd /home/centos",
+        "wget https://s3.amazonaws.com/amazoncloudwatch-agent/centos/amd64/latest/amazon-cloudwatch-agent.rpm",
+        "sudo rpm -U ./amazon-cloudwatch-agent.rpm",
         "wget https://aws-codedeploy-us-east-1.s3.amazonaws.com/latest/install",
         "chmod +x ./install",
         "sudo ./install auto",
-        "sudo service codedeploy-agent status",
-        "wget https://s3.amazonaws.com/amazoncloudwatch-agent/centos/amd64/latest/amazon-cloudwatch-agent.rpm",
-        "sudo rpm -U ./amazon-cloudwatch-agent.rpm"
+        "sudo service codedeploy-agent status"
       ]
     }
   ]
