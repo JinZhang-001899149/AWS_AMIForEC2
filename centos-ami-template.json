@@ -40,6 +40,7 @@
         "sudo yum update -y",
         "sudo yum install ruby -y",
         "sudo yum install lsof -y",
+        "sudo yum install maven -y",
         "sudo yum install wget -y",
         "sudo yum install java-1.8.0-openjdk* -y",
         "sudo yum install tomcat -y",
